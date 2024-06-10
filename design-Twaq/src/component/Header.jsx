@@ -7,7 +7,7 @@ function Header(){
     return (
 
         <>
-      
+        <div>
         <div className="header" >
             <div className="logo">
                 <img src="https://tuwaiq.edu.sa/img/logos/Logos_White-04.png" alt="" />
@@ -32,6 +32,8 @@ function Header(){
                 </ul>
             </div>  
             <p className="twaq">أكاديمية طويق</p>
+        </div>
+        
         </>
 
     )
